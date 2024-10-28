@@ -1,0 +1,116 @@
+/* Ant Design CSS */
+@import 'antd/dist/reset.css';
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  background: #f0f2f5;
+}
+
+/* Layout styles */
+.ant-layout {
+  background: #f0f2f5;
+}
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 24px;
+  background: linear-gradient(135deg, #1677ff 0%, #0958d9 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ant-layout-header .ant-typography {
+  color: white !important;
+  margin: 0;
+}
+
+.header-time {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+}
+
+.header-buttons .ant-btn {
+  height: 36px;
+  padding: 4px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Content area styles */
+.main-content {
+  margin: 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Card styles */
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px 24px;
+  background: #fafafa;
+  border-radius: 8px 8px 0 0;
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1677ff;
+}
+
+/* List styles */
+.transcript-list .ant-list-item {
+  padding: 16px 24px;
+  transition: all 0.3s;
+}
+
+.transcript-list .ant-list-item:hover {
+  background: #f8f9fa;
+}
+
+.transcript-list .ant-list-item-meta-title {
+  font-weight: 500;
+  color: #1677ff;
+}
+
+/* Control panel styles */
+.control-panel .ant-select {
+  margin-bottom: 16px;
+}
+
+.control-panel .ant-btn {
+  min-width: 100px;
+  height: 36px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Utility classes */
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
